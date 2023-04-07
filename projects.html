@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="current"><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <header class="projects-header">
+      <h1>My Projects</h1>
+    </header>
+    <main>
+      <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <h3>
+              <a
+                href="https://colab.research.google.com/drive/1k9F9JAOY6IAUvN730K5pwc_R3NsoWDJz#scrollTo=a4DKR3QQPfE4"
+              >
+                Human Activity Recognition
+              </a>
+            </h3>
+            <p>
+              In this project, I used the WISDM dataset to train a deep learning
+              model to recognize human activities from accelerometer data. The
+              goal was to accurately identify six activities: Walking, Jogging,
+              Sitting, Standing, Upstairs, and Downstairs. I used LSTM neural
+              networks and trained the model using the Keras library. To improve
+              the model's performance, I preprocessed the data by segmenting it
+              into fixed-size windows and standardizing the features using the
+              StandardScaler. After training the model, I evaluated its
+              performance using accuracy and confusion matrix metrics. The model
+              achieved an accuracy of 97%, indicating that it was successful in
+              recognizing human activities from accelerometer data.
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a href="https://github.com/notr0hit/wordle-solver-bot">
+                Web Article Summarizer
+              </a>
+            </h3>
+            <p>
+              This tool can be useful for anyone who wants to quickly get a
+              summary of a long article. I developed Project tool using Python's
+              libraries like Tkinter, nltk, newspaper, and pyttsx3. The Article
+              Summarizer tool extracts and parses newspaper articles using
+              advanced algorithms with web scraping to extract all the useful
+              text from a website.The GUI of this tool is created using Tkinter,
+              the standard GUI library for Python. The user has to input the URL
+              of the article that they want to summarize, and then they can
+              click the "Summarize" button to get the summary of the article.
+              The summary is displayed on the GUI in a text box. The tool also
+              provides a "Listen to Summary" button that converts the summary
+              text to speech.
+            </p>
+          </li>
+          <li>
+            <h3>
+              <a href="https://github.com/notr0hit/wordle-solver-bot">
+                Wordle Solver
+              </a>
+            </h3>
+            <p>
+              Implementation of a
+              <a href="https://www.nytimes.com/games/wordle/index.html"
+                >Wordle</a
+              >
+              using C++ on a set of pre-defined English words, employing
+              strategies like filtering candidate words based on frequency of
+              letters, frequency of words using map and set data structures. The
+              program uses multiple helper functions to check if a word or
+              response is valid, to generate the best guess and filter the
+              candidate words.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023 Rohit Khare. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
