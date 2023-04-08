@@ -4,26 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Projects</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Projects - Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li class="current"><a href="about.html">About</a></li>
-      </ul>
+
+    <!-- Start of Navbar -->
+    <nav class="navbar">
+      <div class="navbar-container-section-center">
+        <div class="logo">
+          <a href="#">Portfolio</a>
+        </div>
+        <ul class="nav-links">
+          <div class="icon cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="icon menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
     </nav>
-    <header class="projects-header">
-      <h1>My Projects</h1>
-    </header>
-    <main>
+    <!-- End of Navbar -->
+
+    <!-- Start Of Hero Section -->
+    <section class="hero-projects">
+      <div class="hero-container section-center">
+        <div class="hero-text">
+          <span> My Projects </span>
+        </div>
+      </div>
+    </section>
+    <!-- End of Hero Section -->
+
+
+    <!-- Start of Project Section -->
       <section class="projects">
         <h2>Projects</h2>
         <ul>
@@ -91,9 +113,20 @@
           </li>
         </ul>
       </section>
-    </main>
-    <footer>
-      <p>Copyright &copy; 2023 Rohit Khare. All rights reserved.</p>
+    <!-- End of Project Section -->
+
+    <!-- Start of Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <p class="footer-text">
+          Copyright &copy; 2023 Rohit Khare. All Rights Reserved
+        </p>
+      </div>
     </footer>
+    <!-- End of Footer Section -->
+
+    <!-- Script start -->
+    <script src="./script.js"> </script>
+    <!-- Script end -->
   </body>
 </html>

@@ -4,72 +4,102 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>About</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>About - Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li class="current"><a href="about.html">About</a></li>
-      </ul>
+
+    <!-- Start of Navbar -->
+    <nav class="navbar">
+      <div class="navbar-container-section-center">
+        <div class="logo">
+          <a href="#">Portfolio</a>
+        </div>
+        <ul class="nav-links">
+          <div class="icon cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="icon menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
     </nav>
+    <!-- End of Navbar -->
 
-    <header class="about-header">
-      <h1>About Me</h1>
-    </header>
+    <!-- Start Of Hero Section -->
+    <section class="hero-about">
+      <div class="hero-container section-center">
+        <div class="hero-text">
+          <span> About Me </span>
+        </div>
+      </div>
+    </section>
+    <!-- End of Hero Section -->
 
-    <main>
-      <section class="intro">
-        <h2>Introduction</h2>
-        <p>
-          Hi, I'm Rohit Khare, an aspiring software engineer, I am passionate
-          about technology and the endless possibilities it offers. From a young
-          age, I have been fascinated by computers and how they work, and that
-          interest has only grown over time., my ultimate goal is to develop
-          innovative software solutions that make a positive impact on society.
-          I am always eager to learn new things and am constantly working on
-          developing my skills and knowledge. Apart from academics, I enjoy
-          participating coding competitions as they provide a platform to
-          showcase my skills and learn from others. I also enjoy reading tech
-          blogs and staying up to date with the latest advancements in
-          technology.
+
+    <!-- Start of about Section -->
+    <section class="intro">
+      <h2>Introduction</h2>
+      <p>
+        Hi, I'm Rohit Khare, an aspiring software engineer, I am passionate
+        about technology and the endless possibilities it offers. From a young
+        age, I have been fascinated by computers and how they work, and that
+        interest has only grown over time., my ultimate goal is to develop
+        innovative software solutions that make a positive impact on society.
+        I am always eager to learn new things and am constantly working on
+        developing my skills and knowledge. Apart from academics, I enjoy
+        participating coding competitions as they provide a platform to
+        showcase my skills and learn from others. I also enjoy reading tech
+        blogs and staying up to date with the latest advancements in
+        technology.
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Data Structures and Algorithms</li>
+        <li>Problem Solving</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>SQL</li>
+        <li>Object Oriented Programming</li>
+      </ul>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <ul>
+        <li>B.Tech in Computer Science, MANIT Bhopal</li>
+        <li>12th Grade from Sanskar Public School (CBSE)</li>
+      </ul>
+    </section>
+    <!-- End of about Section -->
+
+    <!-- Start of Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <p class="footer-text">
+          Copyright &copy; 2023 Rohit Khare. All Rights Reserved
         </p>
-      </section>
-
-      <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript</li>
-          <li>Data Structures and Algorithms</li>
-          <li>Problem Solving</li>
-          <li>C++</li>
-          <li>Python</li>
-          <li>Java</li>
-          <li>SQL</li>
-          <li>Object Oriented Programming</li>
-        </ul>
-      </section>
-
-      <section class="education">
-        <h2>Education</h2>
-        <ul>
-          <li>B.Tech in Computer Science, MANIT Bhopal</li>
-          <li>12th Grade from Sanskar Public School (CBSE)</li>
-        </ul>
-      </section>
-    </main>
-
-    <footer>
-      <p>Copyright &copy; 2023 Rohit Khare. All rights reserved.</p>
+      </div>
     </footer>
+    <!-- End of Footer Section -->
+
+    <!-- Script start -->
+    <script src="./script.js"> </script>
+    <!-- Script end -->
   </body>
 </html>
